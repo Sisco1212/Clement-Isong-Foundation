@@ -55,11 +55,11 @@ export function Hero() {
         >
           <motion.h1
             variants={itemVariants}
-            className="text-5xl md:text-7xl font-bold text-foreground mb-6 tracking-tight"
+            className="text-5xl md:text-6xl mt-8 md:w-10/12 mx-auto font-bold text-foreground mb-6 tracking-tight"
           >
-            Institute for{' '}
+            Clement Isong Foundation &{' '}
             <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-              Advanced Research
+              Clement Isong Centre for Development Studies, University of Uyo
             </span>
           </motion.h1>
 

@@ -40,9 +40,9 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-2 group">
             <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">IAR</span>
+              <span className="text-white font-bold text-sm">CIF</span>
             </div>
-            <span className="font-bold text-lg text-primary hidden sm:inline">Institute</span>
+            <span className="font-bold text-lg text-primary hidden sm:inline">Clement Isong Foundation</span>
           </Link>
 
           <div className="hidden md:flex space-x-1">
@@ -50,16 +50,16 @@ export function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="px-3 py-2 text-sm font-medium text-foreground hover:text-primary transition-colors"
+                className={`px-3 py-2 text-sm font-medium ${isScrolled ? "text-background" : "text-foreground"} hover:text-primary transition-colors`}
               >
                 {link.label}
               </Link>
             ))}
           </div>
 
-          <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:shadow-lg hover:shadow-primary/20 transition-all duration-300 text-sm font-medium">
+          {/* <button className="bg-primary text-primary-foreground px-6 py-2 rounded-lg hover:shadow-lg hover:shadow-primary/20 transition-all duration-300 text-sm font-medium">
             Apply Now
-          </button>
+          </button> */}
         </div>
       </div>
     </motion.nav>

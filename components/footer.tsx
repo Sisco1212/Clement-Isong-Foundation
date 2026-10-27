@@ -45,7 +45,7 @@ export function Footer() {
   ]
 
   return (
-    <footer className="bg-gradient-to-b from-foreground to-primary text-white">
+    <footer className="bg-gradient-to-b from-background to-primary text-white">
       {/* Main Footer Content */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
@@ -58,9 +58,9 @@ export function Footer() {
           >
             <div className="flex items-center space-x-3 mb-4">
               <div className="w-10 h-10 bg-gradient-to-br from-accent to-accent/70 rounded-lg flex items-center justify-center">
-                <span className="text-foreground font-bold">IAR</span>
+                <span className="text-foreground font-bold">CIF</span>
               </div>
-              <span className="text-xl font-bold">Institute</span>
+              <span className="text-xl font-bold">Clement Isong Foundation</span>
             </div>
             <p className="text-white/70 mb-6 leading-relaxed">
               Leading the advancement of knowledge through innovative research, world-class education, and professional development.
